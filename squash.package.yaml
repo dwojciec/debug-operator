@@ -1,0 +1,4 @@
+packageName: squash
+channels:
+- name: alpha
+  currentCSV: squash-operator.v0.3.1
