@@ -7,6 +7,11 @@ $ install.sh squash-test
 
 to deploy a squash instance
 ```
-$ oc create -f https://raw.githubusercontent.com/dwojciec/ansible-role-squash-k8s/master/deploy/crds/cr.yaml
+$ oc create -f cr.yaml
+```
+
+to remove all
+```
+$ oc delete squash-test
 ```
 
