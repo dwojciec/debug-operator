@@ -2,7 +2,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: ClusterServiceVersion
 metadata:
   name: squash-operator.v0.3.1
-  namespace: placeholder
+  namespace: default
   annotations:
     categories: "Logging & Tracing"
     certified: "false"
