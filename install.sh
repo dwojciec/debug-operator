@@ -1,3 +1,8 @@
+#!/bin/bash
+if [[ $# -eq 0 ]] ; then
+    echo 'you have to use: install.sh <project> '
+    exit 1
+fi
 oc new-project $1
 sed -e "s|REPLACE_NAMESPACE|$1|g" squash.v0.3.1.clusterserviceversion.yaml > squash.v0.3.1.clusterserviceversion-dev.yaml
 oc create -f squash.v0.3.1.clusterserviceversion-dev.yaml
