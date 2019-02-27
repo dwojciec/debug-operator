@@ -15,12 +15,14 @@ metadata:
           "apiVersion": "examples.dwojciec.com/v1alpha1",
           "kind": "Squash",
           "metadata": {
-            "name": "squashtest"
+            "name": "squash-debug"
           },
           "spec": {
             "size": 1,
-            "version": v0.3.1 
-            }}]
+            "version": "v0.3.1" 
+          }
+        }
+      ]
 spec:
   displayName: squash-operator
   description: >
