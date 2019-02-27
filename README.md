@@ -1,4 +1,10 @@
 # debug-operator
+clone project 
+```
+$ git clone git@github.com:dwojciec/debug-operator.git
+$ cd debug-operator
+```
+
 to install the squash operator
 
 ```
