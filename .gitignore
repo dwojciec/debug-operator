@@ -1,0 +1,8 @@
+out/
+.DS_Store
+.idea
+workspace
+data
+logs/
+squash.v0.3.1.clusterserviceversion-dev.yaml
+squash-subscription-dev.yaml
